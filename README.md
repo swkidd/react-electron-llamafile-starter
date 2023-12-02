@@ -3,6 +3,7 @@
 
 ###  Build Cross-platform [Llamafile](https://github.com/Mozilla-Ocho/llamafile) Apps with [Electron](https://www.electronjs.org) and [React](https://react.dev) 
 
+#### This is a starter app that uses Electron and React to build cross-platform desktop apps that can run llamafiles. Llamafile allows you to share and execute LLMs across platforms using a single file.
 
 #### !!! Requires a llamafile to run !!!
 Download a llamafile from the [llamafile repo](https://github.com/Mozilla-Ocho/llamafile) and place it in the 'assets/llamafile' directory then linked by changing the `exec` command file path in `src/main/main.ts`.  The [mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile](https://huggingface.co/jartine/mistral-7b.llamafile/resolve/main/mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile?download=true) is the current default.
