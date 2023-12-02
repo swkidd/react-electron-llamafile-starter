@@ -1,0 +1,122 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  );
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  padding: 8px 16px; /* Adjusted size */
+  border-radius: 8px; /* Adjusted size */
+  border: none;
+  appearance: none;
+  font-size: 1rem; /* Adjusted size */
+  box-shadow: 0px 4px 14px -3px rgba(24, 39, 75, 0.12), /* Adjusted shadow */
+    0px 8px 38px -2px rgba(24, 39, 75, 0.14); /* Adjusted shadow */
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+input {
+  border: none;
+  border-radius: 8px; /* Adjusted size */
+  padding: 8px 16px; /* Adjusted size */
+  font-size: 1rem; /* Adjusted size */
+  box-shadow: 0px 4px 14px -3px rgba(24, 39, 75, 0.12), /* Adjusted shadow */
+    0px 8px 38px -2px rgba(24, 39, 75, 0.14); /* Adjusted shadow */
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+  width: 80%; /* Added property */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
+
+  div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px 0 5px;
+    width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+  }
+}
+
+.chat-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 20%;
+  width: 100%;
+  margin: 20px;
+}
