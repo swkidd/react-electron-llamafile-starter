@@ -4,14 +4,14 @@
 ###  Build Cross-platform [Llamafile](https://github.com/Mozilla-Ocho/llamafile) Apps with [Electron](https://www.electronjs.org) and [React](https://react.dev) 
 
 
-- #### !!! Requires a llamafile to run !!!
-  Download a llamafile from the [llamafile repo](https://github.com/Mozilla-Ocho/llamafile) and place it in the 'assets/llamafile' directory then linked by changing the 'exec' command file path in 'src/main/main.ts'.  The 'mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile' is recommended and is the current default.
+#### !!! Requires a llamafile to run !!!
+Download a llamafile from the [llamafile repo](https://github.com/Mozilla-Ocho/llamafile) and place it in the 'assets/llamafile' directory then linked by changing the 'exec' command file path in 'src/main/main.ts'.  The 'mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile' is recommended and is the current default.
 
- Or build your own llamafile from any llama-variant model and link it the same way.
+Or build your own llamafile from any llama-variant model and link it the same way.
 
- This starter app is based on [Electron React Boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate.git) with minimal changes to create a simple chat interface.
+This starter app is based on [Electron React Boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate.git) with minimal changes to create a simple chat interface.
 
- Thanks to the Electron React Boilerplate, Electron, React, Llamafile, llama.cpp, and all the other open source projects that make this one possible.
+Thanks to the Electron React Boilerplate, Electron, React, Llamafile, llama.cpp, and all the other open source projects that make this one possible.
 <br>
 
 ## Install
